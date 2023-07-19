@@ -42,6 +42,8 @@ return {
   DiagnosticWarn = { fg = c.yellow },
   DiagnosticInfo = { fg = c.cyan },
   DiagnosticHint = { fg = c.fg_dark2 },
+  markdownH1 = { fg = c.red, bold = true },
+  markdownH2 = { fg = c.fg, bold = true },
 
   -- Tree-sitter
   ["@field"] = { fg = c.fg_dark1 },
