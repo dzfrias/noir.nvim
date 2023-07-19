@@ -49,6 +49,7 @@ return {
   ["@field"] = { fg = c.fg_dark1 },
   ["@keyword"] = { fg = c.fg_dark1, italic = true },
   ["@operator"] = { fg = c.bright },
+  ["@constructor"] = { link = "Function" },
   ["@punctuation.delimiter"] = { fg = c.bright },
   ["@punctuation.bracket"] = { fg = c.bright },
   ["@punctuation.special"] = { fg = c.bright },
