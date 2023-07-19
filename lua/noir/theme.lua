@@ -17,6 +17,9 @@ return {
   DiffDelete = { fg = c.fg_dark1 },
   NormalFloat = { fg = c.fg, bg = c.bg_light },
   NonText = { fg = c.fg_dark },
+  ErrorMsg = { fg = c.error },
+  WarningMsg = { fg = c.warning },
+  Folded = { fg = c.accent, bg = c.bg_light },
 
   -- Conventional vim highlights
   Identifier = { fg = c.fg },
@@ -31,6 +34,11 @@ return {
   Type = { fg = c.secondary },
   Constant = { fg = c.bright, bold = true },
   PreProc = { fg = c.accent },
+  Error = { fg = c.error },
+  DiagnosticError = { fg = c.error },
+  DiagnosticWarn = { fg = c.warning },
+  DiagnosticInfo = { fg = c.info },
+  DiagnosticHint = { fg = c.fg_dark2 },
 
   -- Tree-sitter
   ["@field"] = { fg = c.fg_dark1 },

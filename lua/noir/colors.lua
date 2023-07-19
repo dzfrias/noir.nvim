@@ -9,4 +9,8 @@ return {
   accent = "#9486a3",
   secondary = "#7ea0b7",
   bright = "#CCCCCC",
+
+  error = "#916666",
+  warning = "#949669",
+  info = "#80a8a2",
 }
