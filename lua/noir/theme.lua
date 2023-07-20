@@ -25,6 +25,11 @@ return {
   CurSearch = { link = "IncSearch" },
   SpecialKey = { fg = c.fg_dark },
   Title = { fg = c.red, bold = true },
+  Conceal = { fg = c.fg_dark },
+  CursorColumn = { bg = c.fg_dark0 },
+  CursorLine = { bg = c.fg_dark0 },
+  Directory = { fg = c.secondary },
+  CursorLineNr = { fg = c.fg_dark1 },
 
   -- Conventional vim highlights
   Identifier = { fg = c.fg },
