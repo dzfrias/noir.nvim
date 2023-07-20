@@ -23,6 +23,8 @@ return {
   Search = { bg = c.yellow, fg = c.bg },
   IncSearch = { bg = c.red, fg = c.bg },
   CurSearch = { link = "IncSearch" },
+  SpecialKey = { fg = c.fg_dark },
+  Title = { fg = c.red, bold = true },
 
   -- Conventional vim highlights
   Identifier = { fg = c.fg },
@@ -42,7 +44,7 @@ return {
   DiagnosticWarn = { fg = c.yellow },
   DiagnosticInfo = { fg = c.cyan },
   DiagnosticHint = { fg = c.fg_dark2 },
-  markdownH1 = { fg = c.red, bold = true },
+  markdownH1 = { link = "Title" },
   markdownH2 = { fg = c.fg, bold = true },
 
   -- Tree-sitter
