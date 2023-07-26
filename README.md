@@ -8,11 +8,11 @@ I created this colorscheme because I wanted to try something a bit more simple,
 while still being modern (supporting treesitter, LSP highlight tokens, common
 neovim plugins, and more).
 
-# Adding Plugin Highlights
+## Adding Plugin Highlights
 
 If you'd like to extend the existing plugin integrations, feel free to submit a
 pull request!
 
-# License
+## License
 
 This plugin is distributed under the [MIT license](./LICENSE).
