@@ -1,6 +1,6 @@
 # noir.nvim
 
-<img width="662" alt="noir_nvim" src="https://github.com/dzfrias/noir.nvim/assets/96022404/72780b1f-ab44-4dc8-b16c-4100a7669d75">
+<img width="662" alt="noir_nvim" src="https://github.com/dzfrias/noir.nvim/assets/96022404/86e086d9-cfb5-4dcc-9b7b-4a3a33455b2c">
 
 A smooth, grey-toned colorscheme for [neovim](https://github.com/neovim/neovim).
 noir.nvim was designed with the intent of simplicity and elegance, with only a
