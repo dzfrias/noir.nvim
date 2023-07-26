@@ -76,4 +76,7 @@ return {
   IndentBlanklineChar = { fg = c.fg_dark, nocombine = true },
   IndentBlanklineContextChar = { fg = c.fg_dark, nocombine = true },
   IndentBlanklineContextSpaceChar = { fg = c.fg_dark, nocombine = true },
+
+  -- Treesitter context
+  TreesitterContext = { bg = c.bg_light },
 }
