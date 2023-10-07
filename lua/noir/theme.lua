@@ -73,9 +73,9 @@ return {
   BufferInactiveSign = { bg = c.bg, fg = c.bg },
 
   -- Indent guides
-  IndentBlanklineChar = { fg = c.fg_dark, nocombine = true },
-  IndentBlanklineContextChar = { fg = c.fg_dark, nocombine = true },
-  IndentBlanklineContextSpaceChar = { fg = c.fg_dark, nocombine = true },
+  IblIndent = { fg = c.fg_dark0, nocombine = true },
+  IblWhitespace = { fg = c.fg_dark0, nocombine = true },
+  IblScope = { fg = c.fg_dark1, nocombine = true },
 
   -- Treesitter context
   TreesitterContext = { bg = c.bg_light },
