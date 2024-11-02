@@ -65,6 +65,7 @@ return {
   ["@punctuation.bracket"] = { fg = c.bright },
   ["@punctuation.special"] = { fg = c.bright },
   ["@variable.builtin"] = { fg = c.fg_dark1, italic = true },
+  ["@variable"] = { fg = c.fg },
   ["@include"] = { fg = c.accent, italic = true },
 
   -- LSP
@@ -83,4 +84,9 @@ return {
 
   -- Treesitter context
   TreesitterContext = { bg = c.bg_light },
+
+  -- Gitsigns
+  GitSignsAdd = { link = "DiffAdd" },
+  GitSignsChange = { link = "DiffChange" },
+  GitSignsDelete = { link = "DiffDelete" },
 }
